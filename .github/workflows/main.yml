@@ -6,8 +6,6 @@ on:
       - main
       - develop
       - pruebas
-      - pruebas_fs
-      - pruebas_cicd 
     paths-ignore:
       - "docs/**"
       
@@ -37,3 +35,6 @@ jobs:
 
       - name: Build 🏗️
         run: npm run build
+
+
+
